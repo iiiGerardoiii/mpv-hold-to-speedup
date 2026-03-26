@@ -7,4 +7,4 @@ Drop `mpv-hold-to-speedup.lua` into your mpv scripts folder.
 
 ## Usage
 
-Just press and hold spacebar or left click to fast-forward, it's that simple. You can modify the speed_multiplier to whatever you like (default is 2.0)
+Just press and hold either spacebar or left-click to fast-forward, it's that simple. You can modify the speed_multiplier to whatever you like (default is 2.0)
