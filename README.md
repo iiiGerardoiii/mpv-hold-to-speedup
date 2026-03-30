@@ -1,3 +1,5 @@
+<img width="1121" height="273" alt="speedup banner" src="https://github.com/user-attachments/assets/8fb77f68-6ba1-400e-913f-a0bfe3d36d91" />
+
 # hold-to-speedup.lua
 
 An MPV script that speeds up the video when left-click or spacebar is held for 0.5 seconds and reverts it to normal speed when released.
