@@ -2,11 +2,19 @@
 
 # hold-to-speedup.lua
 
-An MPV script that speeds up the video when left-click or spacebar is held for 0.5 seconds and reverts it to normal speed when released.
+An mpv script that speeds up the video when left-click or spacebar is held for 0.5 seconds and reverts it to normal speed when released.
 
-## Installation
-Drop `hold-to-speedup.lua` into your mpv scripts folder.
+## 📦 Installation
 
-## Usage
+Place [hold-to-speedup.lua](https://raw.githubusercontent.com/iiiGerardoiii/mpv-hold-to-speedup/refs/heads/main/hold-to-speedup.lua) in your mpv `scripts` folder
 
-Just press and hold either spacebar or left-click to fast-forward, it's that simple. You can modify the speed_multiplier to whatever you like (default is 2.0)
+Example:
+
+- **Linux/Unix/Mac:** `~/.config/mpv/scripts/hold-to-speedup.lua`
+- **Windows:** `%APPDATA%\mpv\scripts\hold-to-speedup.lua`
+
+  (See the [Files section](https://mpv.io/manual/master/#files) in mpv's manual for more info.)
+
+## 🖱️Usage
+
+Just press and hold either spacebar or left-click to fast-forward, it's that simple.
