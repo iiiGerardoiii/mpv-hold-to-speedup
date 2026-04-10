@@ -6,19 +6,24 @@ local speed_multiplier = 2.0
 local hold_threshold = 0.5
 local is_speeding = false
 local timer = nil
+local pre_hold_speed = 1.0 -- Variable to store your original speed
 
 local function speed_on()
     is_speeding = true
+    -- Capture the speed EXACTLY as it is before we change it
+    pre_hold_speed = mp.get_property_number("speed")
+
     mp.set_property("speed", speed_multiplier)
     mp.set_osd_ass(0, 0, "▶▶ " .. speed_multiplier .. "x faster")
 end
 
 local function speed_off()
-    mp.set_property("speed", 1.0)
-    is_speeding = false
+    -- Revert to the captured speed instead of a hardcoded 1.0
+    mp.set_property("speed", pre_hold_speed)
     -- Clear persistent ASS text
     mp.set_osd_ass(0, 0, "")
     -- Force OSD to refresh/clear
+    is_speeding = false
     mp.osd_message("", 0)
     mp.osd_message("▶", 1)
 end
