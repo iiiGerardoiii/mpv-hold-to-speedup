@@ -1,4 +1,4 @@
-<img width="1121" height="273" alt="speedup banner" src="https://github.com/user-attachments/assets/aa3aa288-f2a5-4baf-a883-404cb5388c94" />
+<img src="https://github.com/user-attachments/assets/aa3aa288-f2a5-4baf-a883-404cb5388c94" />
 
 # hold-to-speedup.lua
 
